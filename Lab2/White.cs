@@ -83,11 +83,6 @@ namespace Lab2
                 n += 3;
             }
             answer = (n-3);
-
-
-
-
-
             // end
 
             return answer;
@@ -103,7 +98,7 @@ namespace Lab2
             while (a >= 0.0001)
             {
                 a *= x * x;
-                s += a; // почему не наобарот строчки???????
+                s += a; // 
             }
             answer = s;
             
@@ -147,3 +142,4 @@ namespace Lab2
     }
 
 }
+
